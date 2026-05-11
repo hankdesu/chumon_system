@@ -15,6 +15,7 @@ dist/
 wheels/
 *.egg-info
 .pytest_cache
+htmlcov
 
 # Virtual environments
 .venv
