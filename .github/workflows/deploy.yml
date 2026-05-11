@@ -31,7 +31,7 @@ jobs:
       - name: Create and publish docker image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: server/
           file: server/docker/dockerfile
           push: true
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
