@@ -1,4 +1,11 @@
 .DS_Store
+.vscode
+docker
+
+# Server-side files
+server/.coverage
+server/.env
+server/alembic.ini
 
 # Python-generated files
 __pycache__/
@@ -7,6 +14,7 @@ build/
 dist/
 wheels/
 *.egg-info
+.pytest_cache
 
 # Virtual environments
 .venv
