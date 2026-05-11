@@ -1,11 +1,11 @@
 .DS_Store
 .vscode
-docker
 
 # Server-side files
 server/.coverage
 server/.env
 server/alembic.ini
+server/docker/docker-compose.yaml
 
 # Python-generated files
 __pycache__/
